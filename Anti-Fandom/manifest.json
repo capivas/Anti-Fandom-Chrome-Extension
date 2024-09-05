@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Anti-Fandom",
+  "version": "1.0",
+  "description": "Changes the 'Fandom' sites URLs to 'AntiFandom' so the site can be usable again.",
+  "permissions": [
+    "webNavigation",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "anti-fandom.js"
+  },
+  "action": {
+    "default_popup": ""
+  }
+}
